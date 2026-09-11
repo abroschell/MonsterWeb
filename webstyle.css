@@ -1,0 +1,323 @@
+body {
+    background-color: #0f2c3d;
+    color: #fdf6e3;
+    font-family: 'Comic Neue', sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header img {
+    max-width: 700px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #071c2a;
+    padding: 15px 0;
+    border-bottom: 3px solid #ff8d00;
+}
+
+nav a {
+    color: #5ce1e6;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 8px 18px;
+    border: 2px solid #5ce1e6;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #ff8d00;
+    color: #0f2c3d;
+}
+
+.welcome {
+    position: relative;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.welcome h1 {
+    font-family: 'Luckiest Guy';
+    font-size: 3rem;
+    color: #ff8d00;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.welcome p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.monster {
+    padding: 40px 10%;
+    background-color: #071c2a;
+}
+
+.monster h2 {
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    color: #ff8d00;
+    margin-bottom: 30px;
+}
+
+.monstercardsbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.monstercard {
+    flex: 1 1 300px;
+    max-width: 320px;
+    background-color: #0f2c3d;
+    border: 3px solid #5ce1e6;
+    border-radius: 25px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.monster img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #ff8d00;
+}
+
+.monstercontent {
+    padding: 15px;
+}
+
+.monstercontent h3 {
+    color: #ff8d00;
+    margin-bottom: 8px;
+    font-family: 'Comic Neue', sans-serif;
+}
+
+.monstercontent p {
+    font-size: 0.95rem;
+}
+
+.monstercard:hover {
+    background-color: #5ce1e6;
+    color: #000000;
+}
+
+.history {
+    padding: 60px 10%;
+    background-color: #0f2c3d;
+    margin-top: 40px;
+}
+
+.history h2 {
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    color: #ff8d00;
+    text-shadow: 2px 2px 5px #000;
+    margin-bottom: 25px;
+}
+
+.historyCards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.historyCard {
+    flex: 1 1 500px;
+    max-width: 600px;
+    background-color: #071c2a;
+    border-radius: 20px;
+    padding: 30px;
+    border: 2px solid #5ce1e6;
+    text-align: center;
+}
+
+footer {
+    background-color: #071c2a;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 50px;
+    border-top: 3px solid #ff8d00;
+    font-size: 0.95rem;
+    color: #fdf6e3;
+    font-family: 'Comic Neue', sans-serif;
+}
+
+.title {
+    text-align: center;
+    padding: 30px 20px 10px 20px;
+}
+
+.title h1 {
+    font-family: 'Luckiest Guy';
+    font-size: 48px;
+    color: #ff8d00;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.title p {
+    font-size: 16px;
+}
+
+.monsterbio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10%;
+    gap: 30px;
+}
+.monsterbiocard {
+    width: 100%;
+    max-width: 700px;
+    background: linear-gradient(145deg, #071c2a, #0f2c3d);
+    border: 2px solid #5ce1e6;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.monsterbiocard:hover {
+    background: #5ce1e6;
+    color: #000000;
+}
+
+.monsterbiocard img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.monsterbiocard h3 {
+    font-family: 'Comic Neue', sans-serif;
+    color: #ff8d00;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.monsterbiocard p {
+    font-size: 1rem;
+}
+
+.monstertypes {
+    padding: 50px 10%;
+    background-color: #071c2a;
+}
+
+.monstertypes h2 {
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    color: #ff8d00;
+    margin-bottom: 40px;
+}
+
+.monstertypebox {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    background: linear-gradient(145deg, #071c2a, #0f2c3d);
+    border: 2px solid #5ce1e6;
+    border-radius: 20px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.monstertypebox.reverse {
+    flex-direction: row-reverse;
+}
+
+.monstertypebox:hover {
+    background: #5ce1e6;
+    color: #000000;
+}
+
+.monstertypebox img {
+    width: 250px;
+    border-radius: 15px;
+    border: 3px solid #5ce1e6;
+}
+
+.monstertypeText {
+    flex: 1;
+}
+
+.monstertypeText h3 {
+    font-family: 'Comic Neue', sans-serif;
+    color: #ff8d00;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.monstertypeText p {
+    font-size: 1rem;
+}
+
+.errorpage {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.errorpage h1 {
+    font-family: 'Luckiest Guy';
+    font-size: 3rem;
+    color: #ff8d00;
+    margin-bottom: 20px;
+}
+
+.scoobyerror {
+    width: 250px;
+    border-radius: 20px;
+    margin: 20px 0;
+    border: 3px solid #5ce1e6;
+}
+
+.errormessage {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.errorlinks {
+    margin-top: 30px;
+}
+
+.errorlinks a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #5ce1e6;
+    border-radius: 20px;
+    color: #5ce1e6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.errorlinks a:hover {
+    background-color: #ff8d00;
+    color: #0f2c3d;
+}
+
+.contact {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #071c2a;
+    border: 2px solid #5ce1e6;
+    border-radius: 20px;
+    display: inline-block;
+}
